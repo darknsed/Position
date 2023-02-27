@@ -1,0 +1,102 @@
+.header{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Logo{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Slider{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.Content{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.search{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.unit{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer_div{
+    background-color: aqua;
+    color: white;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
