@@ -26,7 +26,7 @@ footer {
     flex-grow: 1;
 }
 
-.header{
+header{
     background-color: aqua;
     color: white;
     font-family: 'Comic Sans MS', Comic Sans, cursive;
