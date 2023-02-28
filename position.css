@@ -1,15 +1,44 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+header,
+.Logo,
+.Slider,
+.Content,
+.menu,
+.search,
+.unit,
+footer {
+    background-color: aqua;
+    color: white;
+    margin: 20px 10px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
 .header{
     background-color: aqua;
     color: white;
     font-family: 'Comic Sans MS', Comic Sans, cursive;
     font-weight: 700;
+    font-size: 30px;
     text-align: center;
+    align-self: center;
 }
 
 .first{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .Logo{
@@ -19,8 +48,9 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    height: fit-content;
-    width: fit-content;
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
 }
 
 .Slider{
@@ -30,6 +60,8 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    align-self: center;
+    justify-content: center;
     height: fit-content;
     width: fit-content;
 }
@@ -86,8 +118,6 @@
 
 .footer{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
 }
 
 .footer_div{
