@@ -1,9 +1,12 @@
+html,body{
+    height: 100%;
+}
+
 body {
     font-family: 'Comic Sans MS', Comic Sans, cursive;
     font-weight: 700;
     text-align: center;
     font-size: 30px;
-
     display: flex;
     flex-direction: column;
 }
@@ -36,7 +39,6 @@ footer {
     flex-direction: column;
 }
 
-header,.second,
-.footer{
+.second,.container{
     flex-grow: 1;
 }
